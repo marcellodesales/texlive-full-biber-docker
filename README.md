@@ -10,6 +10,8 @@ Latex and Biber to generate PDF
 
 Inputs: see `docker-compose.yaml` with possible env vars:
 
+| Option | Description |
+| ------ | ----------- |
 | TEX_FILENAME=main | Name of the tex file. Say "main.tex". Running latexpdf might generate main.aux (if references are included set WITH_BIB=true) |
 | WITH_BIB=true | If you have Bib references, just say so. |
 | CLEAN_LATEX_LOGS=true | Clean the logs generated |
